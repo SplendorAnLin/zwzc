@@ -23,7 +23,7 @@ yum install nfs-utils rpcbind -y #安装必要软件
 
     + showmount -e 192.168.3.5 #替换成对应IP 测试是否正常连接
 
-    + mount -t nfs 192.168.3.5:/home/zwzc /mnt/zwzc #替换成对应IP进行挂载
+    + mount -t nfs 192.168.3.5:/opt/zwzc /mnt/zwzc #替换成对应IP进行挂载
 
     + vi /etc/rc.local #修改开机自启 把上面这行命令复制进最后一行
 
