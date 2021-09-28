@@ -12,7 +12,7 @@ yum install nfs-utils rpcbind -y #安装必要软件
 
     + ll -d zwzc/ #验证是否生效
 
-    + vi /etc/exports #配置权限 /home/zwzc *(rw,sync) *号修改成对应IP 如：192.168.3.5/24
+    + vi /etc/exports #配置权限 /home/zwzc *(rw,sync) *号修改成对应IP 如：192.168.3.5/24（客户端IP)
     
     + systemctl start rpcbind.service #启动对应服务
 
